@@ -1,17 +1,54 @@
-  
-<link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
-   integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
-   crossorigin=""/>
+<title>Load a basic WebMap - 4.18</title>
 
-<script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
-   integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
-   crossorigin=""></script>
+  <link rel="stylesheet" href="https://js.arcgis.com/4.18/esri/css/main.css">
+
+  <script src="https://js.arcgis.com/4.18/"></script>
+
+<!-- In the head -->
+<link rel="stylesheet" href="https://s3-us-west-1.amazonaws.com/patterns.esri.com/files/calcite-web/1.2.5/css/calcite-web.min.css">
+
+<link rel="stylesheet" href="https://js.arcgis.com/4.18/esri/themes/light/main.css">
+<!--light (default)
+dark
+light-blue
+dark-blue
+light-green
+dark-green
+light-purple
+dark-purple
+light-red
+dark-red -->
 
 
-<link rel="stylesheet" href="style.css">
-          
-             
+
+<!--THEN ADD BUTTON CLASS-->
+<!--THEN DO BUTTON GROUP
+	<body>
+		<div id="viewDiv"></div>
+		<button id="skirt" class="btn btn-clear">Boston Outskirt</button>
+		<button id="cent" class="btn btn-red">Boston City Center</button>
+		<button id="ocean" class="btn btn-green">Ocean View</button>
+	</body>
+-->
 <body>
-  <div id="mapid"></div>
+   <div class="panel panel-dark-blue">
+  <h1 class="trailer-half">EMSI Job Postings</h1>
+  <p class="trailer-0"> <code>chg_imp</code> shows the percent change in total employment from February 2020 <br> <code>metrosize</code> represents the size of the urban area being surveyed </p>
+  </div>
+  
+	<div id="viewDiv"></div>
+
+<!--  <nav class="leader-1">
+    <button id="camera1" class="btn btn-grouped">Boston</button>
+    <button id="camera2" class="btn btn-grouped">Boston City</button>
+    <button id="camera3"  class="btn btn-grouped">Ocean View</button> 
+    
+  </nav> -->
+
   <script src="script.js"></script>
+  
+<link rel="stylesheet" href="style.css">
 </body>
+
+          
+
